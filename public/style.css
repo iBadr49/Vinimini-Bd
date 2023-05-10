@@ -38,6 +38,7 @@ nav img.logo {
   margin: 0 auto; /* this will horizontally center the logo */
   width: 85px;
   height: 60px;
+  padding-left: 42px;
 }
 
 nav a.profielIcon img {
@@ -178,6 +179,84 @@ ul li span {
   background-color: #fff;
   color: #000;
   border: 1px solid var(--lightGreen);
+}
+
+/* ----------------------------------- Procespagina */
+
+
+.procesContainer{
+border-radius: 10px;
+box-shadow: 2px 2px 20px var(--lightGreen);
+padding: 10px;
+margin: 14px;
+margin: 0 auto;
+align-items: center;
+width: 80%;
+margin-bottom: 2rem;
+}
+
+/* Process Title */
+.procesTitel {
+  font-size: 36px;
+  font-weight: bold;
+  justify-items: center;
+  color: var(--lightGreen);
+  text-align: center; /* center align the text */
+}
+
+/* Process Container */
+.procesContainer {
+  margin-top: 30px;
+}
+
+/* Process Schema Title */
+.procesContainer h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+/* Process Steps */
+.procesContainer ol {
+  list-style-type: none;
+  counter-reset: steps;
+  margin: 0;
+  padding: 0;
+}
+
+.procesContainer li {
+  margin-top: 20px;
+  position: relative;
+}
+
+/* Step Title */
+.procesContainer h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--lightGreen);
+}
+
+/* Step Description */
+.procesContainer li p {
+  margin: 10px 0;
+}
+
+/* Step Number */
+.procesContainer li:before {
+  content: counter(steps);
+  counter-increment: steps;
+  position: absolute;
+  top: -10px;
+  left: -25px;
+  width: 20px;
+  height: 20px;
+  background-color: var(--yellow);
+  color: var(--lightGreen);
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 50%;
 }
 
 /* -------------------------------------------------- Calendar */
@@ -363,9 +442,9 @@ caption {
   text-align: center;
   border-radius: 10px;
   box-shadow: 2px 2px 20px var(--groen);
-  margin: 20px;
+  margin: auto;
   padding: 20px;
-  max-width: 18em;
+  max-width: 32em;
 }
 
 .productBox {
@@ -465,7 +544,6 @@ span li {
 .image-detail {
   width: 100%;
   height: auto;
-  max-width: 40vw;
 }
 
 .detail-price {
@@ -486,8 +564,6 @@ span button {
   margin: 20px;
   padding: 20px;
   max-width: 70em;
-  margin-top: 6em;
-  margin-left: 10em;
  }
  
 
