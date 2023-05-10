@@ -34,9 +34,33 @@ app.get('/proces', (request, response) => {
   response.render('proces')
 })
 
-app.get('/agenda', function (req, res) {
-  res.render('agenda')
-})
+// Post note (notitie) to API
+app.post('/agenda', function (req, res, next) {
+
+  req.body.afgerond = false
+  //req.body.persoonId = 'clemozv3c3eod0bunahh71sx7'
+  req.body.datum = req.body.datum + ':00Z';
+  req.body.herinnering = [req.body.herinnering + ':00Z']
+  console.log(req.body)
+  
+  postJson(url2 + '/notities', req.body).then((data) => {
+
+    // console.log(JSON.stringify(data))
+
+    let newNotitie = { ... req.body }
+    
+    if (data.success) {
+      res.redirect('/agenda') 
+      // TODO: squad meegeven, message meegeven
+      // TODO: Toast meegeven aan de homepagina
+    } else {
+      const errormessage = `${data.message}: Mogelijk komt dit door de slug die al bestaat.`
+      const newdata = { error: errormessage, values: newNotitie }
+      
+      res.render('agenda', newdata)
+    }
+  })
+});
 
 app.get("/detail", (request, response) => {
   let id = request.query.detailId || "clerps05z09jm0aw3vccjq5un";

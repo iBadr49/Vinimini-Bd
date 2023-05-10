@@ -1,4 +1,4 @@
-/* ----------- Import */
+/* --------------------------- Import */
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap");
 
@@ -26,7 +26,7 @@ body {
   background-color: #fafafa;
 }
 
-/* --------------------------- HEADER */
+/* ------------------------------------ HEADER */
 
 nav {
   display: flex;
@@ -123,7 +123,7 @@ nav {
   border-bottom: 1px solid #ddd;
 }
 
-/* ------------------ AccountOverzicht, Mini | Profiel */
+/* ---------------------------- AccountOverzicht, Mini | Profiel */
 
 .container {
   text-align: center;
@@ -179,7 +179,7 @@ ul li span {
   border: 1px solid var(--lightGreen);
 }
 
-/* ------------------ Agenda */
+/* -------------------------------- Agenda */
 
 /* A 7 column grid on the table */
 #calendar {
@@ -279,7 +279,7 @@ caption {
 }
 
 /* ============================
-				Mobile Responsiveness  START
+			Responsiveness  Calendar
    ============================*/
 
 @media (max-width: 768px) {
@@ -311,11 +311,39 @@ caption {
   }
 }
 
-/* ============================
-				Mobile Responsiveness END
-   ============================*/
+/* --------------------------- Notitie Posten */
 
-/* ----------- Productenpagina */
+.note{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px var(--lightGreen);
+  padding: 10px;
+  margin: 14px;
+  margin: 0 auto;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.notitieFieldset{
+  display: grid;
+  gap: 1rem;
+  background-color: var(--black);
+  border: none;
+  margin-bottom: 1em;
+  background: #e4f2f2;
+  border: 1px solid #b5dbdc;
+}
+
+.note h1{
+  text-align: center;
+  color: var(--lightGreen);
+}
+
+
+
+
+
+/* --------------------------- Productenpagina */
 
 .productenTitel {
   color: var(--groen);
@@ -388,7 +416,7 @@ caption {
   }
 }
 
-/*  ------------------- Detailpagina */
+/*  ----------------------------------- Detailpagina */
 .detail-title {
   font-size: 1.2rem;
   color: var(--groen);
@@ -446,7 +474,7 @@ span button {
   max-width: 50em;
 }
 
-/* ------------------ Footer */
+/* ----------------------------------- Footer */
 
   footer {
     margin-top: 15rem;
@@ -459,13 +487,14 @@ span button {
     justify-items: center;
     text-align: center;
     grid-column-gap: 20px;
+    background-color: #f7f7f7;
   }
 
   footer h2{
     color: #72a7a6;
   }
 
-  @media (min-width: 545px) {
+  @media (min-width: 560px) {
    footer { 
     margin-top: 10em;
     padding: 1em 1em;
