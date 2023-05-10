@@ -7,19 +7,18 @@
 
   <div class="product">
     <!-- deze linkt naar de detailpagina van een product -->
-    <a href="/detail?detailId=<%= product.id %>"> </a>
-
+    
+<!--------placeholders fixen voor de twee producten !!!!!!!!!!!-->
     <div class="productBox">
-      <a href="/detail/?detailSlug=<%= product.slug %> "> </a>
+      <a href="/detail/?detailId=<%= product.id %>"> </a> 
 
       <!-- foto uit de API -->
       <% if(product.plaatjes.length) { %>
-      <a href="/detail/?detailSlug=<%= product.slug %>"
-        ><img
+      <img
           src="<%= product.plaatjes[0].url %>"
           alt="fotoProduct"
           class="foto"
-      /></a>
+      />
 
       <!-- Placeholder foto-->
       <% }else{ %>
@@ -32,7 +31,9 @@
     </div>
 
     <div class="productData">
-      <h3 class="productName"><%= product.titel %></h3>
+      <a class="productData-link" href="/detail?detailId=<%= product.id %>">
+        <h3 class="productName"><%= product.titel %></h3>
+      </a>
       <span class="productPrice"> € <%= product.prijs %> </span>
     </div>
   </div>
