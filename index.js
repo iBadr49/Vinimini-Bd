@@ -22,7 +22,6 @@ app.get('/', (request, response) => {
   response.render('index')
 })
 
-
 app.get("/producten", (request, response) => {
   let productenUrl = url ;
   fetchJson(productenUrl).then((data) => {
