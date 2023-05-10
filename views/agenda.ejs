@@ -1,8 +1,10 @@
 <%- include('./partials/head.ejs') %>
 
+<!------------------------------------------------------ Calendar -->
+
 <table id="calendar">
     <caption>
-      <span>Augustus 2022</span>
+      <span>Mei 2023</span>
     </caption>
     <tr class="weekdays">
       <th scope="col">Zondag</th>
@@ -42,13 +44,7 @@
         <div class="date">2</div>
         <div class="event">
           <div class="event-desc">Vandaag tijd om ...</div>
-  
           <div class="event-time">2:00pm</div>
-        </div>
-        <div class="event">
-          <div class="event-desc"></div>
-  
-          <div class="event-time"></div>
         </div>
       </td>
     </tr>
@@ -124,10 +120,6 @@
       </td>
       <td class="day">
         <div class="date">22</div>
-        <div class="event">
-          <div class="event-desc"></div>
-          <div class="event-time"></div>
-        </div>
       </td>
       <td class="day">
         <div class="date">23</div>
@@ -185,5 +177,45 @@
       </td>
     </tr>
   </table>
+
+<!--------------------------------------------------------- Notitie -->
+
+  <div class="note">
+    <h1>Mini Notities</h1>
+  
+    <% if (typeof(error) != 'undefined') { %>
+    <strong>Er ging iets mis!</strong>
+    <% } %>
+  
+    <div class="form">
+      <form action="/agenda" method="post">
+        <input type="hidden" name="persoonId" value="clemozv3c3eod0bunahh71sx7">
+        <fieldset class="notitieFieldset">
+          <label>
+            Titel <span>(Notitie)</span>
+            <input id="input" type="text" required name="titel" />
+          </label>
+  
+          <label>
+            Notitie <span>(Beschrijving)</span>
+            <input id="input" type="text" required name="beschrijving" />
+          </label>
+  
+          <label
+            >Datum
+            <input id="input" type="datetime-local" required name="datum" />
+          </label>
+  
+          <label
+            >Herinnering
+            <input id="input" type="datetime-local" required name="herinnering" />
+          </label>
+        </fieldset>
+  
+        <button class="notitieSubmit" type="submit">Toevoegen</button>
+      </form>
+    </div>
+    </section>
+  </div>
 
 <%- include('./partials/foot.ejs') %>

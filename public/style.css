@@ -1,4 +1,4 @@
-/* ----------- Import */
+/* --------------------------- Import */
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap");
 
@@ -26,7 +26,7 @@ body {
   background-color: #fafafa;
 }
 
-/* --------------------------- HEADER */
+/* ------------------------------------ HEADER */
 
 nav {
   display: flex;
@@ -124,7 +124,7 @@ nav {
   border-bottom: 1px solid #ddd;
 }
 
-/* ------------------ AccountOverzicht, Mini | Profiel */
+/* ---------------------------- AccountOverzicht, Mini | Profiel */
 
 .container {
   text-align: center;
@@ -180,7 +180,7 @@ ul li span {
   border: 1px solid var(--lightGreen);
 }
 
-/* ------------------ Agenda */
+/* -------------------------------------------------- Calendar */
 
 /* A 7 column grid on the table */
 #calendar {
@@ -280,7 +280,7 @@ caption {
 }
 
 /* ============================
-				Mobile Responsiveness  START
+			Responsiveness  Calendar
    ============================*/
 
 @media (max-width: 768px) {
@@ -312,11 +312,35 @@ caption {
   }
 }
 
-/* ============================
-				Mobile Responsiveness END
-   ============================*/
+/* ---------------------------------- Notitie Posten */
 
-/* ----------- Productenpagina */
+.note{
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px var(--lightGreen);
+  padding: 10px;
+  margin: 14px;
+  margin: 0 auto;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.notitieFieldset{
+  display: grid;
+  gap: 1rem;
+  background-color: var(--black);
+  border: none;
+  margin-bottom: 1em;
+  background: #e4f2f2;
+  border: 1px solid #b5dbdc;
+}
+
+.note h1{
+  text-align: center;
+  color: var(--lightGreen);
+}
+
+/* ----------------------------------- Productenpagina */
 
 .productenTitel {
   color: var(--groen);
@@ -362,7 +386,7 @@ caption {
   text-decoration: none;
 }
 
-/* ----omdat de productbox relative is, is dat hele vlak nu een link naar de detailpagina---- */
+/* ------------------------------------------ omdat de productbox relative is, is dat hele vlak nu een link naar de detailpagina */
 .productData-link::before {
   content: "";
   position: absolute;
@@ -390,7 +414,6 @@ caption {
   border-radius: 5%;
 }
 
-/*---- MediaQuery -- RESPONSIVE!! ---- */
 @media all and (min-width: 700px) {
   .productContainer {
     --columns: 2;
@@ -407,7 +430,8 @@ caption {
   }
 }
 
-/*  ------------------- Detailpagina */
+/*  ----------------------------------------- Detailpagina */
+
 .detail-title {
   font-size: 1.2rem;
   color: var(--groen);
@@ -437,7 +461,8 @@ span li {
   color: var(--geel);
 }
 
-/*--------nog centreren---------!!!!!!!!*/
+/* -------------------------------------- Detailpagina centeren */
+
 .image-detail {
   width: 100%;
   height: auto;
@@ -467,9 +492,9 @@ span button {
   margin-top: 6em;
   margin-left: 10em;
  }
-  
+ 
 
-/* ------------------ Footer */
+/* ----------------------------------------- Footer */
 
 footer {
   margin-top: 15rem;
@@ -488,8 +513,8 @@ footer h2 {
   color: #72a7a6;
 }
 
-@media (min-width: 545px) {
-  footer {
+  @media (min-width: 560px) {
+   footer { 
     margin-top: 10em;
     padding: 1em 1em;
     display: grid;
@@ -499,6 +524,3 @@ footer h2 {
   }
 }
 
-.procesContainer ol {
-  list-style: none;
-}
