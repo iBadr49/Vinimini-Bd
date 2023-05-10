@@ -442,7 +442,6 @@ caption {
   text-align: center;
   border-radius: 10px;
   box-shadow: 2px 2px 20px var(--groen);
-  margin: auto;
   padding: 20px;
   max-width: 32em;
 }
@@ -544,6 +543,8 @@ span li {
 .image-detail {
   width: 100%;
   height: auto;
+  max-width: 40vw;
+  margin: 0 auto;
 }
 
 .detail-price {
@@ -561,6 +562,7 @@ span button {
 .detail-container {
   border-radius: 10px;
   box-shadow: 2px 2px 20px var(--groen);
+  border: 1px solid #72a7a5;
   margin: 20px;
   padding: 20px;
   max-width: 70em;
