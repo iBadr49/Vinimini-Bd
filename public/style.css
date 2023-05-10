@@ -180,7 +180,7 @@ ul li span {
   border: 1px solid var(--lightGreen);
 }
 
-/* -------------------------------- Agenda */
+/* -------------------------------------------------- Calendar */
 
 /* A 7 column grid on the table */
 #calendar {
@@ -312,7 +312,7 @@ caption {
   }
 }
 
-/* --------------------------- Notitie Posten */
+/* ---------------------------------- Notitie Posten */
 
 .note{
   border-radius: 10px;
@@ -340,11 +340,7 @@ caption {
   color: var(--lightGreen);
 }
 
-
-
-
-
-/* --------------------------- Productenpagina */
+/* ----------------------------------- Productenpagina */
 
 .productenTitel {
   color: var(--groen);
@@ -389,7 +385,7 @@ caption {
   text-decoration: none;
 }
 
-/* ----omdat de productbox relative is, is dat hele vlak nu een link naar de detailpagina---- */
+/* ------------------------------------------ omdat de productbox relative is, is dat hele vlak nu een link naar de detailpagina */
 .productData-link::before {
   content: "";
   position: absolute;
@@ -417,7 +413,6 @@ caption {
   border-radius: 5%;
 }
 
-/*---- MediaQuery -- RESPONSIVE!! ---- */
 @media all and (min-width: 700px) {
   .productContainer {
     --columns: 2;
@@ -434,7 +429,8 @@ caption {
   }
 }
 
-/*  ----------------------------------- Detailpagina */
+/*  ----------------------------------------- Detailpagina */
+
 .detail-title {
   font-size: 1.2rem;
   color: var(--groen);
@@ -464,7 +460,8 @@ span li {
   color: var(--geel);
 }
 
-/*--------nog centreren---------!!!!!!!!*/
+/* -------------------------------------- Detailpagina centeren */
+
 .image-detail {
   width: 100%;
   height: auto;
@@ -492,9 +489,9 @@ span button {
   margin-top: 6em;
   margin-left: 10em;
  }
-  
+ 
 
-/* ----------------------------------- Footer */
+/* ----------------------------------------- Footer */
 
 footer {
   margin-top: 15rem;
@@ -524,6 +521,3 @@ footer h2 {
   }
 }
 
-.procesContainer ol {
-  list-style: none;
-}
