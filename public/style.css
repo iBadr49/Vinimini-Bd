@@ -60,6 +60,7 @@ nav a.profielIcon img {
 
 .menu.show {
   display: block;
+  z-index: 1;
 }
 
 .menu ul {
@@ -330,9 +331,11 @@ caption {
   display: grid;
   --columns: 1;
   grid-template-columns: repeat(var(--columns), 1fr);
+  z-index: 0;
 }
 
 .product {
+  position: relative;
   text-align: center;
   border-radius: 10px;
   box-shadow: 2px 2px 20px var(--groen);
@@ -351,6 +354,21 @@ caption {
 .productData {
   text-align: left;
   background-color: rgb(255, 255, 255);
+}
+
+.productData-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ----omdat de productbox relative is, is dat hele vlak nu een link naar de detailpagina---- */
+.productData-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .productName {
@@ -395,6 +413,7 @@ caption {
   margin-top: 2rem;
   margin-left: 1.2em;
   margin-bottom: 0.5em;
+  text-align: center;
 }
 
 span p {
@@ -417,13 +436,11 @@ span li {
   color: var(--geel);
 }
 
+/*--------nog centreren---------!!!!!!!!*/
 .image-detail {
   width: 100%;
   height: auto;
-  max-width: 50vw;
-  position: relative;
-  display: flex;
-  justify-content: center;
+  max-width: 40vw;
 }
 
 .detail-price {
@@ -443,30 +460,33 @@ span button {
   box-shadow: 2px 2px 20px var(--groen);
   margin: 20px;
   padding: 20px;
-  max-width: 50em;
-}
+  max-width: 70em;
+  margin-top: 6em;
+  margin-left: 10em;
+ }
+  
 
 /* ------------------ Footer */
 
+footer {
+  margin-top: 15rem;
+  border-top: 1px solid #ddd;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "i"
+    "s"
+    "m";
+  justify-items: center;
+  text-align: center;
+  grid-column-gap: 20px;
+}
+
+footer h2 {
+  color: #72a7a6;
+}
+
+@media (min-width: 545px) {
   footer {
-    margin-top: 15rem;
-    border-top: 1px solid #ddd;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-      "i"
-      "s"
-      "m";
-    justify-items: center;
-    text-align: center;
-    grid-column-gap: 20px;
-  }
-
-  footer h2{
-    color: #72a7a6;
-  }
-
-  @media (min-width: 545px) {
-   footer { 
     margin-top: 10em;
     padding: 1em 1em;
     display: grid;
@@ -475,8 +495,7 @@ span button {
     grid-column-gap: 0px;
   }
 }
-  
 
-
-  
-
+.procesContainer ol {
+  list-style: none;
+}

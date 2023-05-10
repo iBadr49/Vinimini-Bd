@@ -1,0 +1,27 @@
+<%- include('./partials/head') %>
+
+<h1 class="procesTitel">Proces</h1>
+
+<section class="procesContainer">
+    <% if (product.schema) {%>
+        <h2>
+            <%-product.schema.titel%>
+        </h2>
+
+        <ol>
+        <% product.schema.stappen.forEach(function(stap){ %>
+            <li>
+                <h3><%-stap.titel%></h3>
+                <%-stap.beschrijving.html%>
+            </li>
+        <% })%>
+
+        </ol>
+
+
+    <% }else{ %>
+        <h2>Helaas is er momenteel geen proces beschikbaar.</h2>
+    <% } %>
+  <div class="proces">
+</div>
+</section>

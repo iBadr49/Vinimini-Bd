@@ -1,4 +1,5 @@
 // Express uit de nodemodules map
+import { log } from "console";
 import express from "express";
 import { ppid } from "process";
 
@@ -22,21 +23,26 @@ app.get('/', (request, response) => {
 })
 
 
-// app.get("/producten", (request, response) => {
-//   let productenUrl = url ;
-//   fetchJson(productenUrl).then((data) => {
-//     response.render("producten", data);
-//   });
-// });
-
+app.get("/producten", (request, response) => {
+  let productenUrl = url ;
+  fetchJson(productenUrl).then((data) => {
+    response.render("producten", data);
+  });
+});
 
 app.get('/proces', (request, response) => {
-  response.render('proces')
+  let id = request.query.productId || "clerg7e1y032z0auq7ex5rid9";
+  let detailUrl = url2 + "/product?id=" + id;
+  
+  fetchJson(detailUrl).then((data) => {
+    response.render("proces", data);
+  });
 })
 
 app.get('/agenda', function (req, res) {
   res.render('agenda')
 })
+
 
 app.get("/detail", (request, response) => {
   let id = request.query.detailId || "clerps05z09jm0aw3vccjq5un";
