@@ -4,18 +4,21 @@
 
 :root {
   --yellow: #f4eb34;
-  --lightGreen: #72a7a5;
-  --white: white;
-  --black: black;
-  --red: red;
-  --groen: #72a7a6;
+  --white: #fff;
   --black: #000;
-  --wit: #ffffff;
-  --licht-grijs: #eee;
-  --donker-grijs: #ccc;
-  --lichtblauw: #e4f2f2;
-  --donkerblauw: #b5dbdc;
-  --font: "Montserrat";
+  --lightgreen: #72a7a5;
+  --jet: #333333;
+  --seasalt: #f7f7f7;
+  --platinum: #DDDDDD;
+  --silver: #ccc;
+  --verdigris: #72AFA6;
+  --azure: #E4F2F2;
+  --lightblue: #B5DBDC;
+  --timberwolf: #D3D3D3;
+  --bluemunsell: #009AAF;
+  --dimgray: #666;
+  --whitesmoke: #f5f5f5;
+  --antiflashwhite: #ededed;
 }
 
 body {
@@ -77,7 +80,7 @@ nav a.profielIcon img {
 }
 
 .menu a {
-  color: #333;
+  color: var(--jet);
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -114,15 +117,15 @@ nav a.profielIcon img {
   font-weight: bold;
   margin-right: auto;
   text-decoration: none;
-  color: #333;
+  color: var(--jet);
 }
 
 nav {
   display: flex;
   align-items: center;
   padding: 1rem;
-  background-color: #f7f7f7;
-  border-bottom: 1px solid #ddd;
+  background-color: var(--seasalt);
+  border-bottom: 1px solid var(--platinum);
 }
 
 /* ---------------------------- AccountOverzicht, Mini | Profiel */
@@ -134,13 +137,13 @@ nav {
 .box1,
 .box2 {
   margin: 20px;
-  border: 1px solid #72a7a5;
+  border: 1px solid var(--lightgreen);
   vertical-align: top;
 }
 
 .box1 {
-  background-color: #72a7a5;
-  color: #fff;
+  background-color: var(--lightgreen);
+  color: var(--white);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
@@ -148,10 +151,10 @@ nav {
 
 .box2 {
   background-color: var(--white);
-  color: #000;
+  color: var(--black);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px var(--lightGreen);
+  box-shadow: 0px 0px 10px var(--lightgreen);
 }
 
 ul li {
@@ -165,8 +168,8 @@ ul li span {
 
 .btn {
   display: block;
-  background-color: var(--lightGreen);
-  color: #fff;
+  background-color: var(--lightgreen);
+  color: var(--white);
   padding: 10px 20px;
   text-decoration: none;
   margin: 10px auto;
@@ -176,22 +179,20 @@ ul li span {
 }
 
 .btn:hover {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid var(--lightGreen);
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--lightgreen);
 }
 
 /* ----------------------------------- Procespagina */
 
-
+/* -------------- Stapenplan style */
 .procesContainer{
 border-radius: 10px;
-box-shadow: 2px 2px 20px var(--lightGreen);
+box-shadow: 2px 2px 20px var(--lightgreen);
 padding: 10px;
-margin: 14px;
-margin: 0 auto;
+margin: 20px;
 align-items: center;
-width: 80%;
 margin-bottom: 2rem;
 }
 
@@ -200,7 +201,7 @@ margin-bottom: 2rem;
   font-size: 36px;
   font-weight: bold;
   justify-items: center;
-  color: var(--lightGreen);
+  color: var(--lightgreen);
   text-align: center; /* center align the text */
 }
 
@@ -233,7 +234,7 @@ margin-bottom: 2rem;
 .procesContainer h3 {
   font-size: 18px;
   font-weight: bold;
-  color: var(--lightGreen);
+  color: var(--lightgreen);
 }
 
 /* Step Description */
@@ -251,12 +252,38 @@ margin-bottom: 2rem;
   width: 20px;
   height: 20px;
   background-color: var(--yellow);
-  color: var(--lightGreen);
+  color: var(--lightgreen);
   text-align: center;
   line-height: 20px;
   font-size: 14px;
   font-weight: bold;
   border-radius: 50%;
+}
+
+/* ---------------- Vinimini Tips */
+
+.tipsContainer {
+  background-color: var(--lightgreen);
+  color: var(--black);
+  padding: 20px;
+  margin: 20px;
+  /* text-align: center; */
+  border-radius: 10px;
+}
+
+
+.tipsContainer p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.tipsContainer .proces {
+  background-image: url("path/to/image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  margin-top: 20px;
 }
 
 /* -------------------------------------------------- Calendar */
@@ -265,7 +292,7 @@ margin-bottom: 2rem;
 #calendar {
   margin-left: 10%;
   margin-bottom: 10%;
-  width: 80%;
+  margin: 20px;
   /*margin:0 auto;*/
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -295,11 +322,11 @@ caption {
 #calendar th {
   padding: 4px;
   box-sizing: border-box;
-  border: 4px solid #ccc;
+  border: 4px solid var(--silver);
 }
 
 #calendar .weekdays {
-  background: var(--lightGreen);
+  background: var(--lightgreen);
 }
 
 #calendar .weekdays th {
@@ -308,7 +335,7 @@ caption {
   line-height: 20px;
   border: none;
   padding: 10px 6px;
-  color: #fff;
+  color: var(--white);
   font-size: 13px;
 }
 
@@ -319,15 +346,15 @@ caption {
 }
 
 #calendar .days li:hover {
-  background: #d3d3d3;
+  background: var(--timberwolf);
 }
 
 #calendar .date {
   text-align: center;
   margin-bottom: 5px;
   padding: 4px;
-  background: #72afa6;
-  color: #fff;
+  background: var(--verdigris);
+  color: var(--white);
   width: 20px;
   border-radius: 50%;
   flex: 0 0 auto;
@@ -341,21 +368,21 @@ caption {
   padding: 5px;
   margin-bottom: 5px;
   line-height: 14px;
-  background: #e4f2f2;
-  border: 1px solid #b5dbdc;
-  color: #009aaf;
+  background: var(--azure);
+  border: 1px solid var(--lightblue);
+  color: var(--bluemunsell);
   text-decoration: none;
 }
 
 #calendar .event-desc {
-  color: #666;
+  color: var(--dimgray);
   margin: 3px 0 7px 0;
   text-decoration: none;
 }
 
 #calendar .other-month {
-  background: #f5f5f5;
-  color: #666;
+  background: var(--whitesmoke);
+  color: var(--dimgray);
 }
 
 /* ============================
@@ -370,7 +397,7 @@ caption {
 
   #calendar li {
     height: auto;
-    border: 1px solid #ededed;
+    border: 1px solid var(--antiflashwhite);
     width: 100%;
     padding: 10px;
     margin-bottom: -1px;
@@ -393,25 +420,53 @@ caption {
 
 /* ---------------------------------- Notitie Posten */
 
-.note{
+.form {
   border-radius: 10px;
-  box-shadow: 2px 2px 20px var(--lightGreen);
-  padding: 10px;
-  margin: 14px;
-  margin: 0 auto;
-  align-items: center;
-  width: 80%;
-  margin-bottom: 2rem;
+  box-shadow: 2px 2px 2px var(--lightgreen);
+  border: 1px solid var(--lightgreen);
+  max-width: 100%;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.notitieFieldset{
-  display: grid;
-  gap: 1rem;
-  background-color: var(--black);
+.notitieFieldset {
   border: none;
-  margin-bottom: 1em;
-  background: #e4f2f2;
-  border: 1px solid #b5dbdc;
+}
+
+.notitieFieldset label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.notitieFieldset input, .notitieFieldset textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--black);
+  font-size: 16px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.notitieFieldset input[type="datetime-local"] {
+  margin-top: 10px;
+}
+.notitieFieldset textarea {
+  height: 180px;
+}
+
+.notitieSubmit {
+  display: block;
+  margin-top: 20px;
+  margin-left: 13px;
+  padding: 10px;
+  background-color: var(--lightgreen);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .note h1{
@@ -440,22 +495,23 @@ caption {
 .product {
   position: relative;
   text-align: center;
+  background-color: var(--whitesmoke);
   border-radius: 10px;
-  box-shadow: 2px 2px 20px var(--groen);
+  box-shadow: 2px 2px 2px var(--lightgreen);
   padding: 20px;
-  max-width: 32em;
+  margin: 15px;
 }
 
 .productBox {
   position: relative;
   display: flex;
   justify-content: center;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
 }
 
 .productData {
   text-align: left;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
 }
 
 .productData-link {
@@ -478,7 +534,7 @@ caption {
   margin-bottom: 0.5rem;
   text-transform: uppercase;
   font-size: 1rem;
-  color: var(--groen);
+  color: var(--lightgreen);
 }
 
 .productPrice {
@@ -510,10 +566,7 @@ caption {
 /*  ----------------------------------------- Detailpagina */
 
 .detail-title {
-  font-size: 1.2rem;
-  color: var(--groen);
-  margin-top: 2rem;
-  margin-left: 1.2em;
+  color: var(--lightgreen);
   margin-bottom: 0.5em;
   text-align: center;
 }
@@ -523,7 +576,7 @@ span p {
   line-height: 1.4rem;
   text-align: left;
   font-weight: 300;
-  color: var(--geel);
+  color: var(--black);
   margin-left: 1.2rem;
   margin-right: 1.2rem;
   margin-bottom: 1rem;
@@ -535,7 +588,7 @@ span ul {
 
 span li {
   margin-bottom: 0.5em;
-  color: var(--geel);
+  color: var(--yellow);
 }
 
 /* -------------------------------------- Detailpagina centeren */
@@ -543,13 +596,13 @@ span li {
 .image-detail {
   width: 100%;
   height: auto;
-  max-width: 40vw;
+  /* max-width: 40vw; */
   margin: 0 auto;
 }
 
 .detail-price {
   margin-left: 1.2rem;
-  color: var(--groen);
+  color: var(--lightgreen);
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -561,19 +614,18 @@ span button {
 
 .detail-container {
   border-radius: 10px;
-  box-shadow: 2px 2px 20px var(--groen);
-  border: 1px solid #72a7a5;
+  box-shadow: 2px 2px 2px var(--lightgreen);
+  border: 1px solid var(--lightgreen);
   margin: 20px;
   padding: 20px;
   max-width: 70em;
  }
- 
 
 /* ----------------------------------------- Footer */
 
 footer {
   margin-top: 15rem;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--platinum);
   grid-template-columns: 1fr;
   grid-template-areas:
     "i"
@@ -585,7 +637,7 @@ footer {
 }
 
 footer h2 {
-  color: #72a7a6;
+  color: var(--verdigris);
 }
 
   @media (min-width: 560px) {

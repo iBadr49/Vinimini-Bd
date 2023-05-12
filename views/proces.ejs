@@ -14,11 +14,16 @@
     </li>
     <% })%>
   </ol>
+</section>
 
-  <% }else{ %>
+<section class="tipsContainer">
+  <h2>Vinimini | Tips:</h2>
+  <% product.tips.forEach(function(tip){%>
+  <p><%-tip.tekst%></p>
+  <% })%> <% }else{ %>
   <h2>Helaas is er momenteel geen proces beschikbaar.</h2>
   <% } %>
-  <div class="proces"></div>
 </section>
+
 
 <%- include('./partials/foot') %>

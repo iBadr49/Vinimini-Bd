@@ -6,7 +6,7 @@
         <div class="product-centreren">
         <h2 class="detail-title"><%= product.titel %></h2>
         <div class="grid-container">
-          <img src="<%= product.plaatjes[0].url %>" alt="plaatje" class="image-detail" />
+          <img loading="lazy" src="<%= product.plaatjes[0].url %>" alt="plaatje" class="image-detail" />
         </div>
           <div class="detail-data"> 
             <span>
@@ -18,7 +18,7 @@
               €<%- product.prijs %>
             </div>
             <span>
-              <button>In winkelwagen</button>
+              <button class="notitieSubmit">In winkelwagen</button>
             </span>
           </div>
         </div>
