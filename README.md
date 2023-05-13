@@ -1,9 +1,18 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
+# Vinimini
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+<img width="247" alt="Scherm­afbeelding 2023-05-13 om 10 43 10" src="https://github.com/iBadr49/performance-vinimini/assets/112857932/d44b8ad7-6cfe-41d2-a1be-f28a39b16fb0">
 
-## Inhoudsopgave
+<img width="247" alt="Scherm­afbeelding 2023-05-13 om 10 43 39" src="https://github.com/iBadr49/performance-vinimini/assets/112857932/6d681fa1-623e-4775-a186-513635adbb05">
+
+<img width="247" alt="Scherm­afbeelding 2023-05-13 om 10 44 01" src="https://github.com/iBadr49/performance-vinimini/assets/112857932/94487b20-98ce-4791-b430-0ad6dd3a324b">
+
+<img width="247" alt="Scherm­afbeelding 2023-05-13 om 10 44 27" src="https://github.com/iBadr49/performance-vinimini/assets/112857932/99efe214-6b92-4848-b81d-4c90d5341ce6">
+
+
+
+## 📚 Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
   * [Gebruik](#gebruik)
