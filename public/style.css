@@ -36,7 +36,7 @@ nav {
   justify-content: space-between; /* this will position the shopping.png on the left and the toggle on the right */
   align-items: center; /* this will vertically center the logo */
 }
-
+/* Style for the logo img */
 nav img.logo {
   margin: 0 auto; /* this will horizontally center the logo */
   width: 85px;
@@ -44,10 +44,18 @@ nav img.logo {
   padding-left: 42px;
 }
 
+/* Style for the profielicon img */
 nav a.profielIcon img {
   margin-right: 10px;
+  /* margin-bottom: 8px; */
   width: 32px;
   height: 32px;
+}
+
+/* Style for the shopping-cart img */
+.shopping {
+  height: 32px;
+  width: 32px;
 }
 
 /* Styles for the menu */
@@ -106,19 +114,12 @@ nav a.profielIcon img {
 }
 
 .close img {
-  width: 25px;
-  height: 25px;
+  width: 32px;
+  height: 32px;
   cursor: pointer;
 }
 
-/* Styles for the logo and navbar */
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-right: auto;
-  text-decoration: none;
-  color: var(--jet);
-}
+/* Styles for the navbar */
 
 nav {
   display: flex;
@@ -477,7 +478,7 @@ caption {
 /* ----------------------------------- Productenpagina */
 
 .productenTitel {
-  color: var(--groen);
+  color: var(--lightgreen);
   font-size: 40px;
   font-weight: 600;
   display: flex;
