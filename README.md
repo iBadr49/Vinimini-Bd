@@ -1,9 +1,10 @@
 
-# Vini Mini productenoverzicht 
+# Website | Vinimini
 
-<!-- <img width="400" alt="Scherm­afbeelding 2023-03-23 om 14 02 14" src="https://github.com/iBadr49/performance-vinimini/assets/112856683/4fca2b38-c297-428b-b732-ed065ec754c5"> -->
+<img width="300" alt="Scherm­afbeelding 2023-05-13 om 10 43 10" src="https://github.com/iBadr49/performance-vinimini/assets/112857932/66620001-90bd-467d-8691-509e50793969">
 
-<img width="100%" alt="image" src="https://github.com/iBadr49/performance-vinimini/assets/112857932/4faf90a7-7369-470e-8bcc-7801d5820e57">
+
+<!-- <img width="100%" alt="image" src="https://github.com/iBadr49/performance-vinimini/assets/112857932/4faf90a7-7369-470e-8bcc-7801d5820e57"> -->
 
 
 
