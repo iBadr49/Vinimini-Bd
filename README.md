@@ -1,7 +1,9 @@
 
 # Vini Mini productenoverzicht 
 
-<img width="400" alt="Scherm­afbeelding 2023-03-23 om 14 02 14" src="https://github.com/iBadr49/performance-vinimini/assets/112856683/4fca2b38-c297-428b-b732-ed065ec754c5">
+<!-- <img width="400" alt="Scherm­afbeelding 2023-03-23 om 14 02 14" src="https://github.com/iBadr49/performance-vinimini/assets/112856683/4fca2b38-c297-428b-b732-ed065ec754c5"> -->
+
+<img width="100%" alt="image" src="https://github.com/iBadr49/performance-vinimini/assets/112857932/4faf90a7-7369-470e-8bcc-7801d5820e57">
 
 
 
@@ -222,7 +224,7 @@ nav a.profielIcon img {
 <ul>
 <li><strong>COMMUNICATIE MIDDELEN 🗣️:</strong></li>
 <li>Microsoft Teams</li>
- <li>Whatsapp</li>
+<li>Whatsapp</li>
 </ul>
 
 
@@ -231,9 +233,10 @@ nav a.profielIcon img {
 <ul>
 
 <li>https://github.com//</li>
-
 <li>https://www.google.nl/</li>
-
+<li>https://codepen.io/</li>
+<li>https://developer.mozilla.org/en-US/</li>  
+  
 </ul>
 
 
