@@ -44,7 +44,7 @@ EJS is een sjabloontaal waarmee ontwikkelaars dynamische HTML-pagina's kunnen ma
 Progressive Enhancement:
 Dit is een benadering van webdesign en ontwikkeling die zich richt op het bouwen van de kernfunctionaliteit van een website op een manier die werkt voor alle gebruikers, ongeacht hun apparaat of browsermogelijkheden.
 
-De navbar op de website heeft een hamburger menu die met Javascript uitklapt. In deze code zie je hoe dit werkt, maar vooral ook dat hij zonder Javascript nog steeds werkt.
+- De navbar op de website heeft een hamburger menu die met Javascript uitklapt. In deze code zie je hoe dit werkt, maar vooral ook dat hij zonder Javascript nog steeds werkt.
 
 ```ejs
   <body>
