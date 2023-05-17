@@ -23,11 +23,11 @@
 2. Als ouder wil ik in een dagboek aantekeningen kunnen maken zodat ik niet vergeet wat er is gebeurd.</p>
 </ul>
 
-## 💻👨🏻‍💻👨🏼‍💻 Gebruik
+## 💻 Gebruik
 
 Deze website kan je gebruiken om te zien wat jouw vini mini proces is. In de agenda kan je zien op welke dag je welk supplement moet nemen. Verder kan je producten bekijken.
 
-## 👩🏼‍💻👩🏾‍💻👨🏻‍💻👨🏼‍💻 Kenmerken
+## Kenmerken
 
 Lijst met gebruikte tools, technieken en communicatie middelen.
 Dit project is gemaakt met Node, Express, EJS, progressive enhancement.
