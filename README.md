@@ -11,19 +11,20 @@
 ## 📚 Inhoudsopgave
 
 * [Beschrijving](#beschrijving)
+* [Gebruik](#gebruik)
 * [Kenmerken](#kenmerken)
 * [Bronnen](#bronnen)
 * [Licentie](#licentie)
 
-## 🗒️ Beschrijving
-<strong>Vini Mini 🖌️:</strong>
+## Beschrijving
+<strong>Vinimini  🖌️:</strong>
 
 <p>Wij hebben een profiel pagina gemaakt, waarop de gebruiker zijn/haar proces en agenda kan zien. Ook hebben we een producten en detail pagina gemaakt. Onze userstories waren: <br> 
 1. Als ouder wil ik een overzicht zien van alle voedingssupplement producten, zodat ik kan achterhalen of er een geschikt product voor mijn Vini Mini bij zit. <br>
 2. Als ouder wil ik in een dagboek aantekeningen kunnen maken zodat ik niet vergeet wat er is gebeurd.</p>
 </ul>
 
-## 💻 Gebruik
+## Gebruik
 
 Deze website kan je gebruiken om te zien wat jouw vini mini proces is. In de agenda kan je zien op welke dag je welk supplement moet nemen. Verder kan je producten bekijken.
 
@@ -207,42 +208,40 @@ nav a.profielIcon img {
 }
 ```
 
-<ul>
-<li><strong>TOOLS 🧰:</strong></li>
-<li>VSCode</li>
-<li>Pen & Papier</li>
-<li>Laptop</li>
-</ul>
 
-<ul>
-<li><strong>GEBRUIKTE TECHNIEKEN 🛠️:</strong></li>
-<li>HTML</li>
-<li>CSS</li>
-<li>Javascript</li>
-<li>Node<li>
-</ul>
+<strong>TOOLS 🧰:</strong>
+- Pen&papier
+- Vscode
+- Laptop
+- Figma
 
-<ul>
-<li><strong>COMMUNICATIE MIDDELEN 🗣️:</strong></li>
-<li>Microsoft Teams</li>
-<li>Whatsapp</li>
-</ul>
+<strong> GEBRUIKTE TECHNIEKEN  🛠️: </strong>
+- Html
+- Css
+- Node
+- Ejs
+- Javascript
+- Noscript
 
 
-## 🌐 Bronnen
+<strong> COMMUNICATIE MIDDELEN  🗣️: </strong>
+- Microsoft Teams
+- Whatsapp
 
-<ul>
 
-<li>https://github.com//</li>
-<li>https://www.google.nl/</li>
-<li>https://codepen.io/</li>
-<li>https://developer.mozilla.org/en-US/</li>  
+
+## Bronnen
+
+- https://github.com//
+- https://www.google.nl/
+- https://codepen.io/
+- https://developer.mozilla.org/en-US/
   
-</ul>
 
 
 
-## 🔒 Licentie
+
+## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
