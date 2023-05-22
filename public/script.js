@@ -1,25 +1,28 @@
-// Menu & Close button
-const menu = document.getElementById("menu");
-const toggle = document.getElementById("toggle");
-const overlay = document.getElementById("overlay");
-const close = document.getElementById("close");
+// Voeg alleen event listeners toe als JavaScript beschikbaar is
+document.addEventListener("DOMContentLoaded", function () {
+  const menu = document.getElementById("menu");
+  const toggle = document.getElementById("toggle");
+  const close = document.getElementById("close");
 
-// Toggle the menu when the toggle button is clicked
-toggle.addEventListener("click", () => {
-  menu.classList.toggle("show");
-  overlay.classList.toggle("show");
+  if (menu && toggle && close) {
+    toggle.addEventListener("click", function (event) {
+      event.preventDefault();
+      menu.classList.add("show");
+    });
+
+    close.addEventListener("click", function (event) {
+      event.preventDefault();
+      menu.classList.remove("show");
+    });
+  }
 });
 
-// Hide the menu and overlay when the close button is clicked
-close.addEventListener("click", () => {
-  menu.classList.remove("show");
-  overlay.classList.remove("show");
-});
+// NO-JS BLABLA
 
 // Add a class to the nav element when JavaScript is enabled "NoScript"
-document.addEventListener("DOMContentLoaded", function (event) {
-  const nav = document.querySelector("nav");
-  nav.classList.add("js-nav");
-});
+// document.addEventListener("DOMContentLoaded", function (event) {
+//   const nav = document.querySelector("nav");
+//   nav.classList.add("js-nav");
+// });
 
 

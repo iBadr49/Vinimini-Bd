@@ -31,6 +31,22 @@ body {
 
 /* ------------------------------------ HEADER */
 
+/* Standaardstijl voor de navigatie */
+.menu.hidden {
+  display: none;
+}
+
+/* Stijlen voor de navigatie op schermen groter dan 768px */
+@media (min-width: 768px) {
+  .menu {
+    display: block;
+  }
+  .toggle {
+    display: none;
+  }
+}
+
+
 nav {
   display: flex;
   justify-content: space-between; /* this will position the shopping.png on the left and the toggle on the right */
