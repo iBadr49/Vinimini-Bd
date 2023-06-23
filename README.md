@@ -23,6 +23,9 @@
 
 Deze website kan je gebruiken om te zien wat jouw vini mini proces is. In de agenda kan je zien op welke dag je welk supplement moet nemen. Verder kan je producten bekijken.
 
+![image](https://github.com/iBadr49/performance-vinimini/assets/112857932/b1e8e852-38f0-4b40-94da-3442ef9c6e85)
+- Productenpagina
+
 Zie hier in [Figma](https://www.figma.com/file/a80RrCfDm1bI6tPFK00cRh/Mijn-Website-%7C-Performance-vinimini?type=design&node-id=0%3A1&mode=design&t=KNlCp4KpOBGo42e2-1) hoe mijn website eruit ziet.
 
 ## Kenmerken
