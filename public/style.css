@@ -49,12 +49,13 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between; /* this will position the shopping.png on the left and the toggle on the right */
-  align-items: center; /* this will vertically center the logo */
+  justify-content: space-between; 
+  align-items: center; 
 }
+
 /* Style for the logo img */
 nav img.logo {
-  margin: 0 auto; /* this will horizontally center the logo */
+  margin: 0 auto; 
   width: 85px;
   height: 60px;
   padding-left: 42px;
@@ -523,12 +524,10 @@ caption {
   position: relative;
   display: flex;
   justify-content: center;
-  /* background-color: rgb(255, 255, 255); */
 }
 
 .productData {
   text-align: left;
-  /* background-color: rgb(255, 255, 255); */
 }
 
 .productData-link {

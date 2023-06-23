@@ -17,12 +17,4 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// NO-JS BLABLA
-
-// Add a class to the nav element when JavaScript is enabled "NoScript"
-// document.addEventListener("DOMContentLoaded", function (event) {
-//   const nav = document.querySelector("nav");
-//   nav.classList.add("js-nav");
-// });
-
 
