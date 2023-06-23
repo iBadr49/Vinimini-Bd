@@ -1,12 +1,7 @@
 
 # Website | Vinimini
 
-<img width="300" alt="Scherm­afbeelding 2023-05-13 om 10 43 10" src="https://github.com/iBadr49/performance-vinimini/assets/112857932/66620001-90bd-467d-8691-509e50793969">
-
-
-<!-- <img width="100%" alt="image" src="https://github.com/iBadr49/performance-vinimini/assets/112857932/4faf90a7-7369-470e-8bcc-7801d5820e57"> -->
-
-
+![image](https://github.com/iBadr49/performance-vinimini/assets/112857932/eb430447-7662-4ed6-82c2-72b1b6fb20bc)
 
 ## 📚 Inhoudsopgave
 
@@ -17,7 +12,7 @@
 * [Licentie](#licentie)
 
 ## Beschrijving
-<strong>Vinimini  🖌️:</strong>
+<strong>Vinimini :</strong>
 
 <p>Wij hebben een profiel pagina gemaakt, waarop de gebruiker zijn/haar proces en agenda kan zien. Ook hebben we een producten en detail pagina gemaakt. Onze userstories waren: <br> 
 1. Als ouder wil ik een overzicht zien van alle voedingssupplement producten, zodat ik kan achterhalen of er een geschikt product voor mijn Vini Mini bij zit. <br>
@@ -211,13 +206,13 @@ nav a.profielIcon img {
 ```
 
 
-<strong>TOOLS 🧰:</strong>
+<strong>TOOLS :</strong>
 - Pen&papier
 - Vscode
 - Laptop
 - Figma
 
-<strong> GEBRUIKTE TECHNIEKEN  🛠️: </strong>
+<strong> GEBRUIKTE TECHNIEKEN : </strong>
 - Html
 - Css
 - Node
@@ -226,7 +221,7 @@ nav a.profielIcon img {
 - Noscript
 
 
-<strong> COMMUNICATIE MIDDELEN  🗣️: </strong>
+<strong> COMMUNICATIE MIDDELEN : </strong>
 - Microsoft Teams
 - Whatsapp
 
