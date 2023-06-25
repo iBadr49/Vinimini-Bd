@@ -31,7 +31,7 @@ Zie hier in [Figma](https://www.figma.com/file/a80RrCfDm1bI6tPFK00cRh/Mijn-Websi
 ## Kenmerken
 
 Lijst met gebruikte tools, technieken en communicatie middelen.
-Dit project is gemaakt met Node, Express, EJS, progressive enhancement.
+Dit project is gemaakt met Node, Express, EJS.
 
 Wat is Node:
 Node.js is een software platform waarmee ontwikkelaars JavaScript kunnen gebruiken om applicaties te bouwen die op de computer kunnen draaien, net zoals in een webbrowser. Het biedt veel handige functies en is populair vanwege de snelle en efficiënte manier waarop het met data kan omgaan.
@@ -45,7 +45,7 @@ EJS is een sjabloontaal waarmee ontwikkelaars dynamische HTML-pagina's kunnen ma
 Progressive Enhancement:
 Dit is een benadering van webdesign en ontwikkeling die zich richt op het bouwen van de kernfunctionaliteit van een website op een manier die werkt voor alle gebruikers, ongeacht hun apparaat of browsermogelijkheden.
 
-- De navbar op de website heeft een hamburger menu die met Javascript uitklapt. In deze code zie je hoe dit werkt, maar vooral ook dat hij zonder Javascript nog steeds werkt.
+- De navbar op de website heeft een hamburger ``` menu ``` die met ``` Javascript ``` uitklapt. In deze code zie je hoe dit werkt, maar vooral ook dat hij zonder Javascript (disabeld) nog steeds werkt.
 
 ```ejs
   <body>
@@ -72,7 +72,7 @@ Dit is een benadering van webdesign en ontwikkeling die zich richt op het bouwen
       </div>
     </nav>
 ``` 
-- Navbar zonder Js
+- ``` Nav ``` met een ``` noscript ```
 
 ```ejs
     <noscript>
@@ -120,7 +120,7 @@ Dit is een benadering van webdesign en ontwikkeling die zich richt op het bouwen
     </noscript>
 ```
 
-- Zie de Javascript deel hieronder:
+- JavaScript
 
 ```js
 // Menu & Close button
@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 ```
 
-- Zie de styling hieronder:
+- CSS
 
 ```css
 /* --------------------------- HEADER */
