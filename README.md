@@ -21,10 +21,10 @@
 
 ## Gebruik
 
-Deze website kan je gebruiken om te zien wat jouw vini mini proces is. In de agenda kan je zien op welke dag je welk supplement moet nemen. Verder kan je producten bekijken.
+Deze website is gemaakt op een mobile-versie voor opdrachtgeber vinimini, website kan je gebruiken om te zien wat jouw mini (ind) proces is, in de agenda kan je zien op welke dag je welk supplement moet nemen. Verder kan je vinimini producten bekijken.
 
 ![image](https://github.com/iBadr49/performance-vinimini/assets/112857932/b1e8e852-38f0-4b40-94da-3442ef9c6e85)
-- Productenpagina
+_Productenpagina_
 
 Zie hier in [Figma](https://www.figma.com/file/a80RrCfDm1bI6tPFK00cRh/Mijn-Website-%7C-Performance-vinimini?type=design&node-id=0%3A1&mode=design&t=KNlCp4KpOBGo42e2-1) hoe mijn website eruit ziet.
 
@@ -236,6 +236,7 @@ nav a.profielIcon img {
 - https://www.google.nl/
 - https://codepen.io/
 - https://developer.mozilla.org/en-US/
+- https://css-tricks.com/
   
 
 
