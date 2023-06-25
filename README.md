@@ -21,7 +21,7 @@
 
 ## Gebruik
 
-Deze website is gemaakt op een mobile-versie voor opdrachtgeber vinimini, website kan je gebruiken om te zien wat jouw mini (ind) proces is, in de agenda kan je zien op welke dag je welk supplement moet nemen. Verder kan je vinimini producten bekijken.
+Deze website is gemaakt op een mobile-versie voor opdrachtgever vinimini, website kan je gebruiken om te zien wat jouw mini (ind) proces is, in de agenda kan je zien op welke dag je welk supplement moet nemen. Verder kan je vinimini producten bekijken.
 
 ![image](https://github.com/iBadr49/performance-vinimini/assets/112857932/b1e8e852-38f0-4b40-94da-3442ef9c6e85)
 _Productenpagina_
